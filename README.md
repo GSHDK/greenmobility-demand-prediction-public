@@ -13,8 +13,8 @@ The use of demand prediction systems directly dictates how and where employees o
 Due to the confidentiality of the dataset, information that might reveal specific values about it have been omitted and presented in a way that might reflect the general state of it.
 
 ## Project abstract:
-This paper assesses Convolutional LSTM networks for demand prediction of Mobility as a Service with free floating fleets. We seek to model the time and place of a successful car rental by creating a spatiotemporal model for near future rentals based on data provided by GreenMobility.\\
-The primary approach is the Convolutional LSTM which is compared to multiple output LSTM, and linear regression. The results show that when using the proposed modelling of demand as only a the car location of a successful rental, the Convolutional LSTM does not yield significantly better results than a more simple models as linear regression with time-related independent variables.
+This paper assesses Convolutional Long Short Term Memory networks for demand prediction of free floating Mobility as a Service fleets. Furthermore, it seeks to model the time and place of a successful car rental by creating a spatiotemporal model for near future rentals based on data provided by GreenMobility.
+The primary approach is the Convolutional LSTM which is compared to multiple output LSTM and linear regression. The results show that when modeling the demand as the location of the car of successful rentals, the Convolutional LSTM does not yield significantly better results than a linear regression with time-related independent variables.
 
 **Visualisation of convolutional LSTM architecture**
 
@@ -22,13 +22,14 @@ The primary approach is the Convolutional LSTM which is compared to multiple out
 
 **A public version of the report will soon be available**
 
+**The project poster can be found [here](https://github.com/GSHDK/greenmobility-demand-prediction-public/blob/main/Deeplearning%20PosterFinal.pdf)**
 
 ## Aknowlegedements
 * The project is inspired by Xingjian Shi, Zhourong Chen, Hao Wang, Dit-Yan Ye-ung, Wai kin Wong, and Wang chun Woo, “Convolu-tional lstm network:  A machine learning approach forprecipitation nowcasting,” 2015
 
 * The code for the convolutional LSTM Cell originates from [ndrplz's](https://github.com/ndrplz/ConvLSTM_pytorch) implementation of the Convolutional LSTM cell. 
 
-* The moving MNIST models are inspired [this](https://towardsdatascience.com/video-prediction-using-convlstm-with-pytorch-lightning-27b195fd21a2) article by [holmdk](https://github.com/holmdk)
+* The moving MNIST models are inspired by [this](https://towardsdatascience.com/video-prediction-using-convlstm-with-pytorch-lightning-27b195fd21a2) article by [holmdk](https://github.com/holmdk)
 
 * The moving MNIST data set originates from the [University of Toronto](http://www.cs.toronto.edu/~nitish/unsupervised_video/) and used [tychovdo's](https://github.com/tychovdo/MovingMNIST) dataloader
 
